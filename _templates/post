@@ -1,0 +1,8 @@
+---
+layout:     {{ layout }}
+title:      {{ title }}
+date:       {{ date }}
+author:     "Stephanie"
+comments:   true
+header-img: "img/post-bg-04.jpg"
+---
