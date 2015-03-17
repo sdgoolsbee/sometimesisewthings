@@ -80,10 +80,10 @@ hr.small {
     .nav {
         li {
             a {
-                text-transform: uppercase;
-                font-size: 12px;
-                font-weight: 800;
+                font-size: 16px;
                 letter-spacing: 1px;
+                position: relative;
+                text-decoration: none;
             }
         }
     }
@@ -103,12 +103,36 @@ hr.small {
             li {
                 a {
                     color: white;
-                    padding: 20px;
+                    padding: 0;
+                    margin: 20px;
+                    text-shadow: 2px 2px 5px #333;
+                    
                     &:hover,
                     &:focus {
                         color: $white-faded;
                     }
-                    text-shadow: 2px 2px 5px #333;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 2px;
+                        bottom: 0;
+                        left: 0;
+                        background-color: $white-faded;
+                        box-shadow: 2px 2px 5px #333;
+                        visibility: hidden;
+                        -webkit-transform: scaleX(0);
+                        transform: scaleX(0);
+                        -webkit-transition: all 0.3s ease-in-out 0s;
+                        transition: all 0.3s ease-in-out 0s;
+                    }
+
+                    &:hover:before {
+                        visibility: visible;
+                        -webkit-transform: scaleX(1);
+                        transform: scaleX(1);
+                    }
                 }
             }
         }
