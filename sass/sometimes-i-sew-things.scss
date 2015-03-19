@@ -566,3 +566,7 @@ html.ios {
 }
 
 // Octopress date formatting
+.entry-date .date-suffix {
+    font-size: x-small;
+    vertical-align: super;
+}
