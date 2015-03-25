@@ -10,6 +10,7 @@ url: "http://www.sometimesisewthings.com"
 env: development
 # date_format: '%B %d, %Y'
 
+# Social things
 instagram_username: sometimesisewthings
 facebook_username: sometimesisewthings
 pinterest_username: SometimesISew14
@@ -33,6 +34,7 @@ exclude: [
     "scss-lint.yml"
 ]
 
+# Octopress Asset Pipeline
 asset_pipeline:
   order_js:
    - bootstrap.js
