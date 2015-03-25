@@ -7,4 +7,6 @@ group :jekyll_plugins do
   gem 'octopress-feeds'
   gem 'octopress-asset-pipeline'
   gem 'octopress-minify-html'
+  gem 'jekyll-sitemap'
 end
+
