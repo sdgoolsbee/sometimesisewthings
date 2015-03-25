@@ -31,7 +31,8 @@ exclude: [
     "package.json",
     "README.md",
     "sass",
-    "scss-lint.yml"
+    "scss-lint.yml",
+    "wercker.env"
 ]
 
 # Octopress Asset Pipeline

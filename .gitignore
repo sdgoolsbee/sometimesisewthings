@@ -2,4 +2,4 @@ _site
 node_modules
 .sass-cache
 .ink-cache
-s3_website.yml
+wercker.env
