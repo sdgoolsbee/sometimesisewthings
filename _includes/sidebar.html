@@ -1,8 +1,8 @@
 <div class="col-lg-12 col-md-4 col-sm-6">
     <h3 style="margin-bottom: 7px;">Etsy</h3>
     <script type="text/javascript">
-        var etsyNumColumns = window.head.mobile === false ? 4 : (document.scripts[document.scripts.length - 1].parentNode.offsetWidth >= 380 ? 4 : 3);
-        var etsyNumRows = window.head.mobile === false ? 3 : (document.scripts[document.scripts.length - 1].parentNode.offsetWidth >= 380 ? 3 : 4);
+        var etsyNumColumns = document.scripts[document.scripts.length - 1].parentNode.offsetWidth >= 380 ? 4 : 3;
+        var etsyNumRows = document.scripts[document.scripts.length - 1].parentNode.offsetWidth >= 380 ? 3 : 4;
     </script>
     <script type='text/javascript' src='https://www.etsy.com/assets/js/etsy_mini_shop.js'></script>
     <script type='text/javascript'>new Etsy.Mini(9176261,'thumbnail',etsyNumColumns,etsyNumRows,1,'https://www.etsy.com');</script>
