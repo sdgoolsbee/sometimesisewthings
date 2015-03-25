@@ -38,10 +38,10 @@ exclude: [
 # Octopress Asset Pipeline
 asset_pipeline:
   order_js:
+   - head.js
+   - jquery.js
    - bootstrap.js
    - clean-blog.js
-   - instafeed.js
   order_css:
    - bootstrap.css
    - sometimes-i-sew-things.css
-   - syntax.css

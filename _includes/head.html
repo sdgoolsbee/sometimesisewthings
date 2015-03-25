@@ -9,15 +9,6 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <!-- Bootstrap Core CSS -->
-    <!-- <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}"> -->
-
-    <!-- Custom CSS -->
-    <!-- <link rel="stylesheet" href="{{ "/css/sometimes-i-sew-things.min.css" | prepend: site.baseurl }}"> -->
-
-    <!-- Pygments Github CSS -->
-    <!-- <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}"> -->
-
     <!-- octopress-asset-pipeline css -->
     {% css_asset_tag %}
 
@@ -32,9 +23,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Head.js -->
-    <script src="{{ "/lib/head.min.js " | prepend: site.baseurl }}"></script>
 
     <!-- Octopress Feeds -->
     {% feeds %}
