@@ -8,7 +8,7 @@ baseurl: ""
 url: "http://www.sometimesisewthings.com"
 
 env: development
-date_format: '%B %d, %Y'
+# date_format: '%B %d, %Y'
 
 instagram_username: sometimesisewthings
 facebook_username: sometimesisewthings
