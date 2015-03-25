@@ -12,28 +12,6 @@ module.exports = function(grunt) {
                 ]
             }
         },
-        uglify: {
-            // main: {
-            //     src: 'js/clean-blog.js',
-            //     dest: 'js/clean-blog.min.js'
-            // },
-            jquery: {
-                src: 'lib/jquery.js',
-                dest: 'lib/jquery.min.js'
-            },
-            // bootstrap: {
-            //     src: 'js/bootstrap.js',
-            //     dest: 'js/bootstrap.min.js'
-            // },
-            // instafeed: {
-            //     src: 'js/instafeed.js',
-            //     dest: 'js/instafeed.min.js'
-            // },
-            head: {
-                src: 'lib/head.js',
-                dest: 'lib/head.min.js'
-            }
-        },
         sass: {
             expanded: {
                 options: {
@@ -43,16 +21,7 @@ module.exports = function(grunt) {
                 files: {
                     'css/<%= pkg.name %>.css': 'sass/<%= pkg.name %>.scss'
                 }
-            },
-            // minified: {
-            //     options: {
-            //         style: 'compressed',
-            //         sourcemap: 'none'
-            //     },
-            //     files: {
-            //         'css/<%= pkg.name %>.min.css': 'sass/<%= pkg.name %>.scss'
-            //     }
-            // }
+            }
         },
         banner: '/*!\n' +
             ' * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
@@ -71,13 +40,6 @@ module.exports = function(grunt) {
             }
         },
         watch: {
-            // scripts: {
-            //     files: ['js/clean-blog.js'],
-            //     tasks: ['uglify'],
-            //     options: {
-            //         spawn: false,
-            //     },
-            // },
             sass: {
                 files: ['**/*.scss'],
                 tasks: ['sass'],
@@ -90,12 +52,11 @@ module.exports = function(grunt) {
 
     // Load the plugins.
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'uglify', 'sass', 'usebanner']);
+    grunt.registerTask('default', ['clean', 'sass', 'usebanner']);
 
 };
