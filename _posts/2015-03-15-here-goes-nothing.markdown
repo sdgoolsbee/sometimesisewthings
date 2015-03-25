@@ -3,7 +3,6 @@ layout:     post
 title:      "Here Goes Nothing!"
 date:       2015-03-15T16:34:14-05:00
 author:     "Stephanie"
-comments:   true
 header-img: "img/post-bg-04.jpg"
 ---
 
