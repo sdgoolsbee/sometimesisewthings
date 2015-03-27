@@ -254,6 +254,7 @@ hr.small {
   display: block;
   -webkit-animation: fade .5s .5s backwards ease-out;
   animation: fade .5s .5s backwards ease-out;
+  text-shadow: 2px 2px 5px #333;
 }
 .intro-header .post-heading .subheading .entry-date .date-suffix,
 .intro-header .post-heading .meta .entry-date .date-suffix {
@@ -271,7 +272,7 @@ hr.small {
   font-family: 'Poly', 'Times New Roman', serif;
   font-style: italic;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 18px;
 }
 .intro-header .post-heading .meta a {
   color: white;
@@ -315,6 +316,12 @@ hr.small {
 .post-preview > .post-meta > a:hover, .post-preview > .post-meta > a:focus {
   color: #0085A1;
   text-decoration: underline;
+}
+.post-preview > hr {
+  margin: 40px 0 60px 0;
+}
+.post-preview:last-child hr {
+  display: none;
 }
 
 .section-heading {
@@ -423,12 +430,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 .pager {
-  margin: 20px 0 0;
+  margin: 20px 0 40px 0;
 }
 .pager li > a,
 .pager li > span {
   font-family: 'Poly', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;

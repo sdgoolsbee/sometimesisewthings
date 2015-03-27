@@ -256,6 +256,7 @@ hr.small {
             display: block;
             -webkit-animation: fade .5s .5s backwards ease-out;
             animation: fade .5s .5s backwards ease-out;
+            text-shadow: 2px 2px 5px #333;
 
             .entry-date .date-suffix {
                   vertical-align: super;
@@ -273,7 +274,7 @@ hr.small {
             @include serif;
             font-style: italic;
             font-weight: 300;
-            font-size: 15px;
+            font-size: 18px;
             a {
                 color: white;
             }
@@ -331,6 +332,12 @@ hr.small {
                 // font-size: 60px;
             }
         }
+    }
+    > hr {
+        margin: 40px 0 60px 0;
+    }
+    &:last-child hr {
+        display: none;
     }
 }
 
@@ -456,13 +463,12 @@ form .row:first-child .floating-label-form-group {
 
 .pager {
 
-    margin: 20px 0 0;
+    margin: 20px 0 40px 0;
 
     li {
         > a,
         > span {
             @include sans-serif;
-            text-transform: uppercase;
             font-size: 14px;
             font-weight: 800;
             letter-spacing: 1px;
