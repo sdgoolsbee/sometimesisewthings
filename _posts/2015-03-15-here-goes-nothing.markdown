@@ -3,7 +3,7 @@ layout:     post
 title:      "Here Goes Nothing!"
 date:       2015-03-15T16:34:14-05:00
 author:     "Stephanie"
-header-img: "img/post-bg-04.jpg"
+header-img: "img/chevron-placemats.jpg"
 ---
 
 I've tried to blog a few times before, but its always been sort of short-term - adventures while living abroad and the like. Big things have been going on with us, and I'd like a place to share them! I'm still working out my vision for this blog, but as it is called Sometimes I Sew Things, there will be some posts about my Etsy store, plus maybe some tutorials and such, but also probably some home projects, cooking, and a bit about our lives. 
