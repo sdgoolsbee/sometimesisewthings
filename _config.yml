@@ -25,23 +25,22 @@ paginate: 5
 exclude: [
     "Gemfile",
     "Gemfile.lock",
-    "Gruntfile.js",
     "LICENSE",
-    "node_modules",
-    "package.json",
     "README.md",
-    "sass",
     "scss-lint.yml",
     "wercker.env"
 ]
 
-# Octopress Asset Pipeline
+sass:
+    style: :expanded
+
+# Octopress asset-pipeline
 asset_pipeline:
   order_js:
    - head.js
    - jquery.js
    - bootstrap.js
-   - clean-blog.js
   order_css:
    - bootstrap.css
-   - sometimes-i-sew-things.css
+   - sometimes-i-sew-things.scss
+
