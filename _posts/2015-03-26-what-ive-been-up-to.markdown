@@ -3,7 +3,7 @@ layout:     post
 title:      "What I've Been Up To..."
 date:       2015-03-26T19:35:30-05:00
 author:     "Stephanie"
-header-img: "img/blue-green-placemats.jpg"
+header-img: "img/headers/blue-green-placemats.jpg"
 ---
 
 So the idea for this blog began last year, and the first post was written on January 1 when I asked my husband to help me out with creating a website. I should have known that my super-busy-with-real-work (web developer) husband would be quite the overacheiver :) (And take quite a while to finish the project, but I so happy with the results that we'll forget about that part!) For now, I plan to add a couple of posts a week, but I am sure my vision will change over time.
@@ -14,7 +14,7 @@ This past week has been a pretty big week for adding things to my store. There's
 
 I've been ::cough cough:: really behind on other projects that I committed to, so the next few days are going to be very full! I have completed one set of curtains for my mom today (requested for her birthday last November... yes I'm embarrassed) and the second set is in the works. I'm also working on a backpack for my youngest sister Katie. 
 
-{% img img-responsive img-rounded /img/what-ive-been-up-to-1.jpg %}
+{% img img-responsive img-rounded /img/2015-03-26-what-ive-been-up-to/what-ive-been-up-to-1.jpg %}
 
 I am using [this tutorial](http://pinoyinoz.blogspot.com/2008/07/tutorial-city-backpack.html) with a few tweaks and am really excited about how it will turn out! This is my "stretch" project right now. I've only made a few bags and this looks like a fun one to try out!
 
