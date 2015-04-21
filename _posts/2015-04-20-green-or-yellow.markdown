@@ -3,7 +3,7 @@ layout:     post
 title:      "Green or Yellow?"
 date:       2015-04-20T21:30:22-05:00
 author:     "Stephanie"
-header-img: "img/headers/yellow-and-grey-header.jpg"
+header-img: "img/headers/yellow-and-grey-header-2.jpg"
 ---
 
 I had an unexpectedly productive sewing weekend! I didn’t really plan on doing much of anything for my store, but things happen. Lee and his brother were planning to see a movie on Saturday afternoon and I was going to run some errands and go shopping, but when we went to leave, our car battery was dead… I suppose that is what happens when you leave the headlights on all night. Instead, Lee got a ride and I stayed home and completely prepped two sets of placemats and actually completed one of them. This super cute mini set is a custom order for my cousin! 
