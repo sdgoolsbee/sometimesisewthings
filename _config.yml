@@ -2,7 +2,7 @@
 title: Sometimes I Sew Things
 name: Sometimes I Sew Things
 author: Stephanie
-header-img: img/headers/header.jpg
+header-img: img/headers/header.jpg #Should be 1900x600, or thereabouts
 description: "I started sewing a few years ago as hobby. Today I have an Etsy store, and I use this site to share my current projects, works in progress, and life in general!"
 baseurl: ""
 url: "http://www.sometimesisewthings.com"
