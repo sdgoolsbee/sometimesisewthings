@@ -28,7 +28,7 @@ exclude: [
     "LICENSE",
     "README.md",
     "scss-lint.yml",
-    "wercker.env"
+    "wercker.yml"
 ]
 
 sass:

@@ -1,0 +1,16 @@
+build:
+  box: ruby/2.2.3
+  steps:
+    - bundle-install
+      frozen: true
+
+    - script:
+        name: Build Site
+        code: |-
+          bundle exec jekyll build --config _config.yml,_config_production.yml --destination $WERCKER_OUTPUT_DIR --trace
+
+    - script:
+        name: GZIP Compression
+        cwd: $WERCKER_OUTPUT_DIR
+        code: |-
+          find . \( -iname '*.html' -o -iname '*.css' -o -iname '*.js' -o -iname '*.eot' -o -iname '*.otf' -o -iname '*.ttf' \) -exec gzip -9 -n "{}" \; -exec mv "{}.gz" "{}" \;
