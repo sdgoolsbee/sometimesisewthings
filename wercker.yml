@@ -1,8 +1,8 @@
 box: ruby/2.2.3
 build:
   steps:
-    - bundle-install
-      frozen: true
+    - bundle-install:
+        frozen: true
 
     - script:
         name: Build Site
