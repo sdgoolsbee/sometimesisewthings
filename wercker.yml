@@ -1,5 +1,5 @@
+box: ruby/2.2.3
 build:
-  box: ruby/2.2.3
   steps:
     - bundle-install
       frozen: true
