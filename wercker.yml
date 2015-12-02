@@ -1,4 +1,4 @@
-box: ruby:2.2.3
+box: jlgoolsbee/wercker-docker-jekyll-sometimesisewthings
 build:
   steps:
     - bundle-install:
