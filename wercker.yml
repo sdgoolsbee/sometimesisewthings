@@ -29,14 +29,14 @@ deploy:
     - script:
         name: Publish Assets
         code: |-
-          aws s3 sync . s3://sometimesisewthings.com --delete --size-only --exclude '*' --include '*.css' --include '*.js' --include '*.eot' --include '*.otf' --include '*.ttf' --content-encoding "gzip" --cache-control "s-maxage=$STATIC_ASSET_CACHE_SECONDS, max-age=$STATIC_ASSET_CACHE_SECONDS"
+          aws s3 sync . s3://sometimesisewthings.com --delete --exclude '*' --include '*.css' --include '*.js' --include '*.eot' --include '*.otf' --include '*.ttf' --content-encoding "gzip" --cache-control "s-maxage=$STATIC_ASSET_CACHE_SECONDS, max-age=$STATIC_ASSET_CACHE_SECONDS"
 
     - script:
         name: Publish HTML
         code: |-
-          aws s3 sync . s3://sometimesisewthings.com --delete --size-only --exclude '*' --include '*.html' --content-encoding "gzip" --cache-control "s-maxage=$CDN_CACHE_SECONDS, max-age=$BROWSER_CACHE_SECONDS"
+          aws s3 sync . s3://sometimesisewthings.com --delete --exclude '*' --include '*.html' --content-encoding "gzip" --cache-control "s-maxage=$CDN_CACHE_SECONDS, max-age=$BROWSER_CACHE_SECONDS"
 
     - script:
         name: Publish Anything Else
         code: |-
-          aws s3 sync . s3://sometimesisewthings.com --delete --size-only --exclude '*.css' --exclude '*.js' --exclude '*.eot' --exclude '*.otf' --exclude '*.ttf' --exclude '*.html' --cache-control "s-maxage=$CDN_CACHE_SECONDS, max-age=$BROWSER_CACHE_SECONDS"
+          aws s3 sync . s3://sometimesisewthings.com --delete --exclude '*.css' --exclude '*.js' --exclude '*.eot' --exclude '*.otf' --exclude '*.ttf' --exclude '*.html' --cache-control "s-maxage=$CDN_CACHE_SECONDS, max-age=$BROWSER_CACHE_SECONDS"
