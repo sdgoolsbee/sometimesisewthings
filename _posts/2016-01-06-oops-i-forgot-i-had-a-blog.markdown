@@ -9,7 +9,7 @@ header-img: "img/headers/header.jpg"
 
 I’m alive! 
 
-It has been a crazy busy few months and I’m not sure things will slow down anytime soon! Lee and I are doing well! We were mega busy right up until Christmas, so we took a few days and escaped to a cabin in the hill country for a couple days for New Years. We had such a nice and relaxing time. We were able to spend time reflecting on the 2015 and talking about goals and plans for 2016, but we mostly just sat in front of the fireplace and relaxed.
+It has been a crazy busy few months and I’m not sure things will slow down anytime soon! Lee and I are doing well! We were mega busy right up until Christmas, so we took a few days and escaped to a cabin in the hill country for a for New Years. We had such a nice and relaxing time. We were able to spend time reflecting on the 2015 and talking about goals and plans for 2016, but we mostly just sat in front of the fireplace and relaxed.
 
 {% img img-responsive img-rounded /img/2016-01-06-oops-i-forgot-i-had-a-blog/cabin.jpg %}
 
