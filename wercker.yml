@@ -15,8 +15,6 @@ build:
         code: |-
           find . \( -iname '*.html' -o -iname '*.css' -o -iname '*.js' -o -iname '*.eot' -o -iname '*.otf' -o -iname '*.ttf' \) -exec gzip -9 -n "{}" \; -exec mv "{}.gz" "{}" \;
 
-    - internal/store-container
-
 deploy:
   steps:
     - script:
