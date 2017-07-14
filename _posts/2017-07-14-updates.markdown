@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      "Updates"
+date:       2017-07-14T10:32:49-05:00
+author:     "Stephanie"
+comments:   true
+header-img: "img/headers/owen_blanket_header.jpg"
+---
+
+A couple times a week, I think “oh, I should write a blog post”, but then life happens and I never sit down to do it. So here’s another catch up post, and hopefully I’ll stick with it this time. 
+
+We had a baby :) 
+
+{% img img-responsive img-rounded /img/2017-07-14-updates/birth_announcement.JPG %}
+
+The last time I posted, I announced we would be having a baby boy. Now he is 3 months old! The rest of my pregnancy went pretty smoothly. I worked until 39 weeks, 1 day thinking he’d be born any day. In my defense, that’s what my doctor told me! But I was quite uncomfortable and very distracted, so it was really nice to have some time to relax and rest and take care of a few things before Owen arrived. 
+
+I’ll do another post about his arrival, but he was born on April 7 at 12:48pm! He is such a fun kid and we are really enjoying being parents. I am down to 2 weeks of maternity leave left and that is crazy to me. 16 weeks sounded like a crazy long amount of time, but it has flown by! I can’t believe we have a 3 month old!
+
+Let’s see... what else has changed for us. We are now a two car family for the first time since before we moved to London. We owned one of the Volkswagens affected by the diesel scandal, so we sold that car back to VW on April 1, and now I drive a Prius and Lee has a VW GTI. We did really well for 5 years (well about 4 in the US full-time) with only one car, but it is really nice to have the flexibility that comes with 2 cars.
+
+Our cats have adjusted to Owen well. They are super needy when anyone comes over because they aren’t getting as many snuggles from us, but they pretty much ignore him, which is how we’d prefer it at this point. We were a little worried because we babysat my nephew when he was a few months old and they cried when he cried (very sad but very entertaining). That hasn’t happened once since Owen has been home.
+
+I’ve really enjoyed getting to be home with Owen for the last 14 weeks. It is different than I thought it would be, but I love being a mom and I love watching Lee be a dad.
+
+<div class="row">
+  <div class="col-sm-6" style="padding: 15px;">{% img img-responsive img-rounded /img/2017-07-14-updates/me_owen.jpg %}</div>
+  <div class="col-sm-6" style="padding: 15px;">{% img img-responsive img-rounded /img/2017-07-14-updates/lee_owen.jpg %}</div>
+</div>
+
+I’m also excited to get into a regular routine. Owen started at daycare this week part-time so we can get used to it before I go back to work. I’m really glad we started this early, because he had a really hard time on Wednesday. I dropped him off this morning and I’m praying he has a much better day. We’ll do gradually longer days until I go back to work full-time, but I’m hoping having him comfortable there before I start working again allows me to go back to work and not spend all day super distracted worrying about him. That’s probably wishful thinking though :)
