@@ -24,8 +24,8 @@ Our cats have adjusted to Owen well. They are super needy when anyone comes over
 I’ve really enjoyed getting to be home with Owen for the last 14 weeks. It is different than I thought it would be, but I love being a mom and I love watching Lee be a dad.
 
 <div class="row">
-  <div class="col-sm-6" style="padding: 15px;">{% img img-responsive img-rounded /img/2017-07-14-updates/me_owen.jpg %}</div>
-  <div class="col-sm-6" style="padding: 15px;">{% img img-responsive img-rounded /img/2017-07-14-updates/lee_owen.jpg %}</div>
+  <div class="col-sm-6" style="padding: 15px;">{% img img-responsive img-rounded /img/2017-07-14-updates/me_owen.JPG %}</div>
+  <div class="col-sm-6" style="padding: 15px;">{% img img-responsive img-rounded /img/2017-07-14-updates/lee_owen.JPG %}</div>
 </div>
 
 I’m also excited to get into a regular routine. Owen started at daycare this week part-time so we can get used to it before I go back to work. I’m really glad we started this early, because he had a really hard time on Wednesday. I dropped him off this morning and I’m praying he has a much better day. We’ll do gradually longer days until I go back to work full-time, but I’m hoping having him comfortable there before I start working again allows me to go back to work and not spend all day super distracted worrying about him. That’s probably wishful thinking though :)
