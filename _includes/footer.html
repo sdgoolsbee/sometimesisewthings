@@ -63,7 +63,23 @@
 {% js_asset_tag %}
 
 <script type="text/javascript">
-    var feed = new Instafeed({
+    // Personal Instagram
+    var personal_feed = new Instafeed({
+        target: 'instafeed_stephgoolsbee',
+        accessToken: '11541382.300213e.9d63c38f767945ca8c618465b4af503c',
+        clientId: '300213e5b0004645b7c944b031e64996',
+        get: 'user',
+        limit: 12,
+        resolution: 'thumbnail',
+        sortBy: 'most-recent',
+        {% raw %}template: '<div class="instafeed-img"><a href="{{link}}" target="_blank"><img src="{{image}}" class="img-thumbnail" /></a></div>',{% endraw %}
+        userId: 11541382
+    });
+    personal_feed.run();
+
+    // Store Instagram
+    var store_feed = new Instafeed({
+        target: 'instafeed_sometimesisewthings',
         accessToken: '1443886026.e718d76.77d22c92503d4c4caa96f93cbee77052',
         clientId: 'e718d76c391041118a9ab09d0153f7a5',
         get: 'user',
@@ -73,7 +89,7 @@
         {% raw %}template: '<div class="instafeed-img"><a href="{{link}}" target="_blank"><img src="{{image}}" class="img-thumbnail" /></a></div>',{% endraw %}
         userId: 1443886026
     });
-    feed.run();
+    store_feed.run();
 </script>
 
 <!-- Pinterest -->
