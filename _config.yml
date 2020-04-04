@@ -8,6 +8,7 @@ baseurl: ""
 url: "http://www.sometimesisewthings.com"
 
 env: development
+host: 0.0.0.0
 # date_format: '%B %d, %Y'
 
 # Social things
